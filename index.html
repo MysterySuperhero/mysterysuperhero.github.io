@@ -1,1 +1,19 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="map" style="width: 600px; height: 400px"></div>
+
+	<script type="text/javascript">
+		var map = new ymaps.Map("map", {
+			center: [55.76, 37.64], 
+			zoom: 7
+		});
+	</script>
+  </body>
+</html>
